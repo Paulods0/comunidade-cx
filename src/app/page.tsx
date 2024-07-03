@@ -12,7 +12,7 @@ export default function Home() {
           <span className="bg-clip-text mx-3 text-transparent bg-gradient-to-r from-pink-500 to-blue-700">
             Amigos do CX
           </span>
-          chegou em Angola! 🥳
+          chegou á Angola.
         </h1>
         <Text
           line
@@ -48,7 +48,7 @@ export default function Home() {
         />
 
         <LinkButton
-          href="https://lnkd.in/dfYbfY-s"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfBb_jvPNOJQSgDz07RBxHEcRZ5Dy_YTkNgCB1IHfiaJcvt-Q/viewform"
           text="comunidade amigos do cx"
           image="/arrow.png"
         />

@@ -17,10 +17,12 @@ const LinkButton = (props: Props) => {
         href={props.href}
         className="w-full h-full relative flex items-center gap-4 uppercase justify-center rounded-full bg-white"
       >
-        <p className="font-semibold bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent text-sm lg:text-base mr-8 lg:mr-0">
-          {props.text}
-        </p>
-
+        {props.text && (
+          <p className="font-semibold bg-gradient-to-r from-pink-600 to-blue-600 bg-clip-text text-transparent text-sm lg:text-base mr-8 lg:mr-0">
+            {props.text}
+          </p>
+        )}
+        
         <Image
           src={props.image}
           alt="seta-icon"
