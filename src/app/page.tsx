@@ -6,7 +6,7 @@ import LinkButton from "@/components/link-button"
 export default function Home() {
   return (
     <main className="min-h-screen bg-[url('/bg.png')] bg-center bg-cover bg-fixed py-10 font-Poppins relative bg-white flex items-center w-full px-2 lg:px-0">
-      <div className="w-full lg:w-[800px] z-20 mx-auto p-6 text-[#111] h-full flex flex-col gap-4">
+      <div className="w-full lg:w-[820px] z-20 mx-auto p-6 text-[#111] h-full flex flex-col gap-4">
         <h1 className="lg:text-3xl text-2xl text-left lg:text-center font-semibold">
           A Comunidade
           <span className="bg-clip-text mx-2 text-transparent bg-gradient-to-r from-pink-500 to-blue-700">

@@ -10,7 +10,7 @@ const Text = (props: Props) => {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: props.index * 0.02, duration: 0.3 }}
-      className={`text-lg leading-relaxed tracking-wide py-3 ${
+      className={`text-lg leading-relaxed tracking-wide py-3 text-justify ${
         props.line ? "border-b-[0.5px]" : null
       }`}
     >
