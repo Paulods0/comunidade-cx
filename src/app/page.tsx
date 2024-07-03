@@ -12,7 +12,7 @@ export default function Home() {
           <span className="bg-clip-text mx-3 text-transparent bg-gradient-to-r from-pink-500 to-blue-700">
             Amigos do CX
           </span>
-          chegou à Angola.
+          chegou á Angola.
         </h1>
         <Text
           line
