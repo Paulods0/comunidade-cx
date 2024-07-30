@@ -13,7 +13,7 @@ const Footer = () => {
             width={500}
             height={500}
             alt="logo-white"
-            className=" w-24 h-28 md:w-20 md:h-10 object-cover"
+            className=" w-24 h-28 lg:w-20 lg:h-10 object-cover"
             src="/logo/logo-cx-white.png"
           />
           {HEADER_LINKS.map((link, index) => (
