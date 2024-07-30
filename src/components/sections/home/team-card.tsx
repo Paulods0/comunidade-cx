@@ -10,7 +10,7 @@ type Props = {
 
 const TeamCard = ({ description, image, name }: Props) => {
   return (
-    <div className="h-full lg:h-[70vh] bg-yellow-400 p-8 flex flex-col items-center justify-between lg:gap-0 gap-10">
+    <div className="h-auto bg-yellow-400 p-8 flex flex-col items-center justify-between lg:gap-0 gap-10">
       <div className="flex flex-col gap-4 w-full items-center justify-center">
         <div className="flex flex-col gap-4 items-center">
           <Image
@@ -28,7 +28,7 @@ const TeamCard = ({ description, image, name }: Props) => {
         </p>
       </div>
 
-      <LinkButton text="Saiba mais!" style="text-base bg-blue-600" />
+      <LinkButton text="Saiba mais!" style="mt-4 text-base bg-blue-600" />
     </div>
   )
 }

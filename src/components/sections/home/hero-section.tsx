@@ -11,12 +11,12 @@ const HeroSection = () => {
         autoPlay
         muted
       >
-        <source src="/hero-vid.mp4" />
+        <source src="/video/hero-vid.mp4" />
       </video>
       <div className="absolute inset-0 bg-purple-600/20 w-full h-full" />
 
-      <div className="z-10 w-[35vw] h-full gap-12 mt-[4vh] mr-[3vw] flex flex-col items-start justify-center">
-        <div className="text-[1.7rem] text-white font-thin">
+      <div className="z-10 px-8 lg:px-0 w-full lg:w-[35vw] h-full gap-12 lg:mt-[4vh] lg:mr-[3vw] flex flex-col items-start justify-center">
+        <div className="text-2xl md:text-[1.7rem] text-white font-thin">
           <p className="w-fit bg-blue-500">O nosso propósito é reunir</p>
           <p className="w-fit bg-blue-500">profissionais para discutir e</p>
           <p className="w-fit bg-blue-500">trocar conhecimentos sobre</p>
@@ -26,7 +26,7 @@ const HeroSection = () => {
           <p className="w-fit bg-blue-500">sucesso do cliente.</p>
         </div>
 
-        <div className="flex w-[28vw]">
+        <div className="flex w-full lg:w-[28vw]">
           <p className="text-sm text-white font-thin">
             Acreditamos muito no aprendizado colaborativo e por isso nasceu a
             Comunidade Amigos do CX.
