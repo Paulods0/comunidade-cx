@@ -1,4 +1,3 @@
-import Logo from "../logo"
 import Container from "../container"
 import FooterContent from "./footer-content"
 import { HEADER_LINKS } from "@/constants/header-content"
@@ -13,7 +12,7 @@ const Footer = () => {
             width={500}
             height={500}
             alt="logo-white"
-            className=" w-24 h-28 lg:w-20 lg:h-10 object-cover"
+            className=" w-24 h-28 lg:w-14 lg:h-20 object-cover"
             src="/logo/logo-cx-white.png"
           />
           {HEADER_LINKS.map((link, index) => (
